@@ -58,7 +58,7 @@ class max_heap
 		void heapify (int x )
 		{
 			int l = left ( x ) ;
-			int r= left ( x ) ;
+			int r= right ( x ) ;
 			int large  = x ;
 			if ( l < heap_size and  arr [ l ] > arr [ large ] )
 				large = l ;
